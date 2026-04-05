@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Manrope);
+@import url(https://fonts.cdnfonts.com/css/audrey);
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #fff8db;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2),
+                -10px -10px 20px rgba(0, 0, 0, 0.2);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Manrope', Arial, sans-serif;
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/leaves.png);
+}
+
+#name{
+    font-family: "Audrey", Arial, sans-serif;
+    font-size: 30pt;
+    color:#4A4A4A;
+    background: linear-gradient(to bottom, #fff8db, #d3d9f8);
+    border-bottom: 3px solid #4A4A4A;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index:1000;
+}
+
+.loganphoto{
+    float:right;
+    background-image: url(https://images.unsplash.com/photo-1454117096348-e4abbeba002c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    max-height: 500px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 2%;
+    border: 10px solid #4A4A4A;
+}
+
+a{
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+
+tr:nth-child(even) {
+    background-color: #b5b5b5;
+}
+
+th{
+    background-color: #B0B0B0;
+}
+
+h2, p, table{
+    margin-left: 3%;
+    margin-right: 3%;
+    padding:1%;
+}
+
+#schedule{
+    border-collapse: collapse;
+    border:5px solid #4A4A4A;
+    border-spacing:3px;
+    background-color:lightgray;
+    text-align:left;
+    vertical-align:top;
+    table-layout: fixed;
+    width: 94%;
+}
+
+li{
+    margin-left: 100px;
+    padding: 5px;
+}
+
+#personalinfo{
+    display: inline-block;
+}
+
+td, th{
+    padding: 1%;
+}
+
+#haiku{
+    font-size: 12pt;
+    text-align: center;
+}
+#work{
+    background-color:#d3f8d3;
+}
+
+#CS2810{
+    background-color:#f8d3d3;
+}
+
+#CS2300{
+    background-color:#d3d9f8;
+}
+
+#CS2550{
+    background-color:#f8d3a3;
+}
