@@ -96,6 +96,9 @@ td, th{
 #haiku{
     font-size: 12pt;
     text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    padding:0;
 }
 #work{
     background-color:#d3f8d3;
