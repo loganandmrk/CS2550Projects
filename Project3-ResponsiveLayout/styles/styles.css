@@ -43,7 +43,6 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
 }
 
 .content{
@@ -108,15 +107,98 @@ article{
     background-color: white;
     padding: 20px;
     margin: 15px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
 }
 
 #gallery{
-    display: block;
+    display: flex;
     flex-wrap: wrap;
 }
 
 figure{
-    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+figcaption{
+    font-style: italic;
+    padding: 10px;
+    width: 70%;
+    text-align: right;
+}
+
+.gallery-image{
+    max-width: 70%;
+    height: auto;
+    object-fit: contain;
+    border: solid 3px #970000;
+    border-radius: 8px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+#media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+iframe{
+    border: solid 3px #970000;
+    border-radius: 8px;
+    width: 268px;
+    height: 400px;
+    padding: 20px;
+    margin: 15px;
+    background-color: white;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contact-title{
+    font-family: 'Bitter', serif;
+    text-align: left;
+    color:#970000;
+    padding: 20px;
+    font-size:20pt;
+    background-color: #f6f6f6;
+    width: 100%;
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 20px;
+    font-size: 18pt;
+    background-color: #f6f6f6;
+    width: 100%;
+}
+
+.contact-email{
+    text-decoration: none;
+    justify-content: left;
+    padding: 20px;
+    font-size: 18pt;
+    background-color: #f6f6f6;
+    width: 100%;
+    color: darkslategray;
+}
+
+.contact-email:hover{
+    text-decoration: underline;
 }
 
 .sidebar {
@@ -155,4 +237,9 @@ figure{
 .nav-logo{
     padding: 5%;
     max-width: 80%;
+}
+
+.icon{
+    margin-left: 10px;
+    color: #970000;
 }
