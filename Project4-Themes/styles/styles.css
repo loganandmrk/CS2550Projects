@@ -133,7 +133,7 @@ body{
 
 .container {
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: auto 6fr;
     min-height: 100vh;
 }
 
@@ -334,7 +334,7 @@ nav{
 
 .sidebar {
     background-color: var(--highlight-white);
-    grid-row: 1 / span -1;
+    grid-row: 1 / span 1;
 }
 
 .nav-list{
