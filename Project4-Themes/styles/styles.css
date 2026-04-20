@@ -242,6 +242,10 @@ figcaption{
     align-items: center;
 }
 
+.content{
+    display: flex;
+    flex-direction: row;
+}
 iframe{
     border: solid 3px  var(--killer-red);
     border-radius: 8px;

@@ -10,7 +10,7 @@ SPECIFIC CHANGES
 added dark mode toggle based on this design by w3 schools: https://www.w3schools.com/howto/howto_css_switch.asp
 and created a theme for dark mode using javascript to append a css sheet to head
 main navigation is now on top
-home photos now are more pressed together with no border to create a sleek look
+home photos and general content is now more pressed together with no border to create a sleek look
 */
 *{
 
