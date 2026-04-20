@@ -32,6 +32,10 @@ header{
     font-size: 12pt;
 }
 
+main{
+    width: 100%;
+}
+
 .title{
     grid-column: 2;
     text-align: center;
@@ -144,6 +148,7 @@ body{
 }
 
 .main-content-wrapper {
+    overflow: hidden;
     display: flex;
     flex-direction: column;
 }
@@ -244,7 +249,7 @@ figcaption{
 
 .content{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 iframe{
     border: solid 3px  var(--killer-red);
@@ -369,6 +374,9 @@ nav{
 
 @media screen and (max-width: 1060px) {
     .nav-text{
+        display: none;
+    }
+    .nav-logo{
         display: none;
     }
     .nav-list li a{
