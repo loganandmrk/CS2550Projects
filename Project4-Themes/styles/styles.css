@@ -249,7 +249,7 @@ figcaption{
 
 .content{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 iframe{
     border: solid 3px  var(--killer-red);
