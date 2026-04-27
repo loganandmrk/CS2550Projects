@@ -1,0 +1,90 @@
+/*
+I hadn't received any feedback on the design of the project since the last submission.
+Reorganized the css file to make it easier to read and understand. 
+The buttons in the nav bar to not just link the text but the full box
+Scroll behavior is now smooth when navigating
+Text for nav bar now disappears when screen is not wide enough
+made mobile site easier to view and navigate
+
+SPECIFIC CHANGES
+added dark mode toggle based on this design by w3 schools: https://www.w3schools.com/howto/howto_css_switch.asp
+and created a theme for dark mode using javascript to append a css sheet to head
+main navigation is now on top
+home photos and general content is now more pressed together with no border to create a sleek look
+*/
+*{
+
+    --killer-red: #212121;
+    --highlight-white: #424242;
+    --background-gray: #303030;
+    --font-color: #888;
+}
+
+
+
+.container {
+    display: inline-block;
+}
+
+
+
+article{
+    border: none;
+    border-radius: 0px;
+    max-width: 33.33%;
+    padding: 0px;
+    margin: 0px;
+    box-shadow: none;
+}
+
+figcaption{
+    text-align: left;
+}
+
+.gallery-image{
+
+    border: none;
+    border-radius: 0px;
+}
+
+iframe{
+    border: none;
+    border-radius: 0px;
+}
+
+
+
+/* navigation styles */
+nav{
+    flex-direction: row;
+    z-index: 10;
+    border-bottom: solid 3px var(--killer-red);
+}
+
+.nav-logo{
+    padding: 15px;
+}
+
+.sidebar {
+    position: sticky;
+    top: 0;
+    max-height: 125px;
+}
+
+.nav-list{
+    flex-direction: row;
+}
+
+.nav-list li{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.nav-list li a{
+    width: 100%;
+    text-align: center;
+}
+
+#home, #gallery, #media, #contact{
+    scroll-margin-top: 125px;
+}
